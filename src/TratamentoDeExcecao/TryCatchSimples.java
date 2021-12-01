@@ -1,4 +1,4 @@
-package TryCatch;
+package TratamentoDeExcecao;
 import javax.swing.JOptionPane;
 public class TryCatchSimples {
 	public static void main (String[] args) {

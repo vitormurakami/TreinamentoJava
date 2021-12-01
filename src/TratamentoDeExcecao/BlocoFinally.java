@@ -1,9 +1,8 @@
-package TryCatch;
+package TratamentoDeExcecao;
 
 import javax.swing.JOptionPane;
 
-public class MultiplosCatchs {
-	
+public class BlocoFinally {
 	public static void main(String[] args) {
 		int i = 0;
 		Pessoa p1 = null;
@@ -19,6 +18,9 @@ public class MultiplosCatchs {
 			JOptionPane.showMessageDialog(null, "Erro NullPointerException");
 		}catch (Exception e) {
 			e.printStackTrace();
+		}finally { 
+			//Esse bloco sempre irá ser executado, independentemente se ocorrer um erro ou não. 
+			JOptionPane.showMessageDialog(null, "O Processo foi finalizado!");
 		}
 	}
 }
