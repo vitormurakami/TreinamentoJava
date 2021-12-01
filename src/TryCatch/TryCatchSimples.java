@@ -1,6 +1,6 @@
 package TryCatch;
 import javax.swing.JOptionPane;
-public class Principal {
+public class TryCatchSimples {
 	public static void main (String[] args) {
 		try {
 			Pessoa p1 = null;
